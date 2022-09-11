@@ -1,0 +1,12 @@
+How to install git on EC2 instance
+
+
+1.	Create an EC2 instance with Amazon Linux 2 with internet access
+2.	Connect to your instance using putty
+
+3.	Perform a quick update on your instance:
+sudo yum update -y
+
+4.	Install git in your EC2 instance
+sudo yum install git -y
+
